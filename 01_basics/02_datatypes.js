@@ -9,6 +9,7 @@ console.log( 3 + 3 )
 console.log("Abhisek")
 
 let name = "Abhisek"
+const names = "pari"
 let age = 20
 let isLoggedIn = false
 let state = null // or let state;
@@ -29,4 +30,4 @@ console.log(typeof "Abhisek"); // string
 console.log(typeof null);  // object
 console.log(typeof undefined); // undefined
 
-
+console.table([typeof names , null , undefined , age , isLoggedIn])
