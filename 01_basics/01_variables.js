@@ -1,7 +1,7 @@
 const accountId = 144553
 //const => value cannot change
 let accountEmail = "abhisek097@gmail.com"
-var accountPassoword = "12345"
+var accountPassoword = "12345520"
 accountCity = "Odisha"
 let accountState;
 
