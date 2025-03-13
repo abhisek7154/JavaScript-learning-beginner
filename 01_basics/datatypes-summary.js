@@ -38,3 +38,37 @@ const myFunction = function(){
 // How to find datatypes 
 
 console.log(typeof bigNumber);
+
+
+// https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+// Stack and heap memory in js
+
+// Stack ( Primitive ) , Heap ( Non - premitive) 
+
+// Stack Example
+
+let myYoutubename = "AbhisekSahoodotcom" 
+
+let anothername = myYoutubename
+
+anothername = "Some New value"
+
+console.log(myYoutubename) // Output: AbhisekSahoodotcom
+console.log(anothername) // Output: Some New value
+
+// Heap Example
+
+let userOne = {
+    email:"user1@gmail.com",
+    upi:"User1@ybpl"
+}
+let userTwo = userOne
+
+userTwo.email = "user2@yahoo.hotmail"
+
+console.log( userOne.email) // Output: user2@yahoo.hotmail
+console.log( userTwo.email) // Output: user2@yahoo.hotmail
