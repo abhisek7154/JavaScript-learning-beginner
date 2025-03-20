@@ -9,7 +9,7 @@ tinderUser.id = "1234bc";
 tinderUser.name = "Abhi";
 tinderUser.isLoggedIn = false;
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
 // Nested object
 const regularUser = {
@@ -23,7 +23,7 @@ const regularUser = {
 };
 
 // Accessing nested properties using optional chaining
-console.log(regularUser.fullname?.userfullname?.firstname);
+// console.log(regularUser.fullname?.userfullname?.firstname);
 
 // Objects to be merged
 const obj1 = { 1: "a", 2: "b" };
@@ -31,7 +31,7 @@ const obj2 = { 3: "c", 4: "d" };
 
 // Merging objects using the spread operator
 const obj3 = { ...obj1, ...obj2 };
-console.log(obj3);
+// console.log(obj3);
 
 // Array of user objects
 const users = [
@@ -46,16 +46,32 @@ const users = [
 ];
 
 // Accessing email of the second user
-console.log(users[1]?.email);
+// console.log(users[1]?.email);
 
 // Logging tinderUser object
-console.log(tinderUser);
+// console.log(tinderUser);
 
 // Getting keys, values, and entries of tinderUser
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 // Checking if a property exists in tinderUser
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
 
+const course = {
+    coursename:" js in hindi",
+    price: "9999999",
+    courseInstructer: "hitesh"
+}
+
+// Objedct de-structure
+
+const {courseInstructer: instructer} = course
+// console.log(courseInstructer)
+// console.log(instructer)
+// same output
+
+{
+  name:""
+}
