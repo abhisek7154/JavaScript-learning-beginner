@@ -43,4 +43,17 @@ const user = {
 function handleObject(anyobject){
     console.log(`Username is ${anyobject.username} and netWorth is ${anyobject.netWorth}`);
  }
- handleObject(user)
+//  handleObject(user)
+// or
+// handleObject({
+//     username: "Sam",
+//     netWorth: 399
+// })
+
+const myNewArray = [200 , 400 , 100 , 600]
+
+function returnSendValue(getArray){
+    return getArray[1]
+}
+// console.log(returnSendValue(myNewArray));
+console.log(returnSendValue([200 , 400 , 100 , 600]))
