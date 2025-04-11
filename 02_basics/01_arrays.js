@@ -2,7 +2,6 @@
 
 const myArr = [0 , 1 , 2 , 3 , 4 , 5]
 const myHeros = ["Batman" , "superman"]
-
 const myArr2 = new Array( 1 , 2 , 3 , 4 )
 
 // How to access array
